@@ -1,0 +1,27 @@
+.paper {
+  box-shadow: $box-shadow;
+  padding: 3rem 5rem;
+  text-align: center;
+
+  &-1 {
+    position: relative;
+    top: 5%;
+  }
+  &-1 {
+  }
+  &-1 {
+  }
+}
+
+.download {
+  position: relative;
+  &__box {
+    padding: 1.7rem 3rem;
+    margin-bottom: 2rem;
+  }
+
+  &__cta {
+    border-top: 0.2rem dotted $color-secondary-blue;
+    padding: 3rem 0rem;
+  }
+}

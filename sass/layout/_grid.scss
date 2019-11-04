@@ -8,3 +8,12 @@
   width: calc((100% - #{$gutter-horozontal}) / 2);
   float: left;
 }
+
+.col-1-of-3 {
+  width: calc((100% - 2 * #{$gutter-horozontal}) / 3);
+  float: left;
+}
+
+.col-1-of-3:not(:last-child) {
+  margin-right: $gutter-horozontal;
+}

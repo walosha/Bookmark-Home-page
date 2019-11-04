@@ -32,6 +32,17 @@ body {
   word-spacing: 0.7rem;
   color: #000; }
 
+.heading-tertiary {
+  font-size: 2.1rem;
+  font-weight: 5700;
+  word-spacing: 0.5rem;
+  color: #000; }
+
+.paragraph-secondary {
+  font-size: 1.2rem;
+  font-weight: 200;
+  word-spacing: 0.3rem; }
+
 .u-mb-small {
   margin-bottom: 2rem; }
 
@@ -46,6 +57,9 @@ body {
 
 .u-center-text {
   text-align: center; }
+
+.u-font-small {
+  font-size: 1.3rem !important; }
 
 .btn {
   padding: 2rem 4rem;
@@ -76,6 +90,52 @@ body {
     box-shadow: 0.2rem 1.3rem 2.9rem rgba(106, 112, 138, 0.24);
     transform: translateY(-4px); }
 
+.tab-area {
+  padding: 4rem 7rem; }
+
+.tab-group {
+  margin: 0 auto;
+  width: 61%;
+  text-align: center; }
+
+.tab__panel {
+  list-style: none;
+  font-size: 1.6rem;
+  display: inline-block;
+  padding: 3rem 5rem;
+  text-transform: capitalize; }
+
+.tab-content {
+  position: relative;
+  height: 46rem; }
+
+.content-panel {
+  position: absolute;
+  top: 0%;
+  left: 0%; }
+
+#simple-bookmarking:target,
+#speedy-searching:target,
+#speedy-searching:target {
+  z-index: 1; }
+
+.paper {
+  box-shadow: 0.2rem 1.3rem 2.9rem rgba(106, 112, 138, 0.24);
+  padding: 3rem 5rem;
+  text-align: center; }
+  .paper-1 {
+    position: relative;
+    top: 5%; }
+
+.download {
+  position: relative; }
+  .download__box {
+    padding: 1.7rem 3rem;
+    margin-bottom: 2rem; }
+  .download__cta {
+    border-top: 0.2rem dotted #6a708a;
+    padding: 3rem 0rem; }
+
 .feature {
   width: 30%;
   margin: 0 auto; }
@@ -102,6 +162,13 @@ body {
 .col-1-of-2 {
   width: calc((100% - 7rem) / 2);
   float: left; }
+
+.col-1-of-3 {
+  width: calc((100% - 2 * 7rem) / 3);
+  float: left; }
+
+.col-1-of-3:not(:last-child) {
+  margin-right: 7rem; }
 
 .navigation__list {
   float: right;
@@ -130,3 +197,13 @@ body {
 .header {
   padding: 5rem 7rem;
   margin-top: 7rem; }
+
+.section-download {
+  padding: 5rem 7rem; }
+
+.section-faq {
+  padding: 5rem 7rem; }
+
+.faq {
+  padding: 3rem 5rem;
+  text-align: center; }

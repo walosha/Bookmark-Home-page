@@ -1,0 +1,35 @@
+.tab {
+  &-area {
+    padding: 4rem 7rem;
+  }
+
+  &-group {
+    margin: 0 auto;
+    width: 61%;
+    text-align: center;
+  }
+
+  &__panel {
+    list-style: none;
+    font-size: 1.6rem;
+    display: inline-block;
+    padding: 3rem 5rem;
+    text-transform: capitalize;
+  }
+  &-content {
+    position: relative;
+    height: 46rem;
+  }
+}
+
+.content-panel {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+}
+
+#simple-bookmarking:target,
+#speedy-searching:target,
+#speedy-searching:target {
+  z-index: 1;
+}
