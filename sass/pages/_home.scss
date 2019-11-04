@@ -1,19 +1,12 @@
-*,
-*::after,
-*::before {
-  box-sizing: inherit;
-  padding: 0;
-  margin: 0;
+.main-navigation {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 2rem 3rem;
 }
 
-html {
-  font-size: 62.5%;
-}
-
-body {
-  font-family: "Rubik", san-serrif;
-  line-height: 0.5rem;
-  box-sizing: border-box;
-  font-weight: 500;
-  font-size: 1.2rem;
+.header {
+  padding: 5rem 7rem;
+  margin-top: 7rem;
 }

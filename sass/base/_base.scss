@@ -1,0 +1,19 @@
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Rubik", sans-serif;
+  box-sizing: border-box;
+  font-weight: 500;
+  font-size: 1.2rem;
+  color: $color-secondary-blue;
+}

@@ -1,0 +1,22 @@
+.navigation {
+  &__list {
+    float: right;
+    list-style: none;
+  }
+
+  &-item {
+    text-transform: uppercase;
+    font-weight: 500;
+    display: inline-block;
+  }
+
+  &__logo-box {
+    float: left;
+    height: auto;
+    width: 15rem;
+  }
+
+  &__logo {
+    width: 100%;
+  }
+}

@@ -9,8 +9,124 @@ html {
   font-size: 62.5%; }
 
 body {
-  font-family: "Rubik", san-serrif;
-  line-height: 0.5rem;
+  font-family: "Rubik", sans-serif;
   box-sizing: border-box;
   font-weight: 500;
-  font-size: 1.2rem; }
+  font-size: 1.2rem;
+  color: #6a708a; }
+
+.heading-primary {
+  font-size: 3.6rem;
+  font-weight: 700;
+  word-spacing: 1rem;
+  color: #000; }
+
+.paragraph-primary {
+  font-size: 1.6rem;
+  font-weight: 200;
+  word-spacing: 0.3rem; }
+
+.heading-secondary {
+  font-size: 2.6rem;
+  font-weight: 700;
+  word-spacing: 0.7rem;
+  color: #000; }
+
+.u-mb-small {
+  margin-bottom: 2rem; }
+
+.u-mb-medium {
+  margin-bottom: 4rem; }
+
+.u-mb-big {
+  margin-bottom: 6rem; }
+
+.u-mr-small {
+  margin-right: 2rem; }
+
+.u-center-text {
+  text-align: center; }
+
+.btn {
+  padding: 2rem 4rem;
+  font-size: 1.6rem;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  font-weight: 700;
+  transition: transform 0.3s;
+  border-radius: 0.7rem; }
+  .btn-nav:hover, .btn-nav:active {
+    box-shadow: 0.2rem 1.3rem 2.9rem rgba(106, 112, 138, 0.24);
+    color: #fff;
+    background-color: #fa5757;
+    transform: translateY(-4px); }
+  .btn:visited, .btn:visited {
+    text-decoration: none;
+    transform: translateY(-2px); }
+  .btn-blue {
+    background-color: #5368df;
+    box-shadow: 0.2rem 1.3rem 2.9rem rgba(106, 112, 138, 0.24);
+    color: #fff; }
+  .btn-grey {
+    color: black;
+    background-color: #fff;
+    box-shadow: 0.2rem 1.3rem 2.9rem rgba(106, 112, 138, 0.24); }
+  .btn-blue:hover, .btn-grey:hover {
+    box-shadow: 0.2rem 1.3rem 2.9rem rgba(106, 112, 138, 0.24);
+    transform: translateY(-4px); }
+
+.feature {
+  width: 30%;
+  margin: 0 auto; }
+
+.header__text-box {
+  padding: 6rem 3rem; }
+
+.header__image-box {
+  width: 100%;
+  height: 100%; }
+
+.main-image {
+  width: 100%;
+  height: auto; }
+
+.row {
+  max-width: 114rem;
+  margin: 0 auto; }
+  .row::after {
+    content: "";
+    display: table;
+    clear: both; }
+
+.col-1-of-2 {
+  width: calc((100% - 7rem) / 2);
+  float: left; }
+
+.navigation__list {
+  float: right;
+  list-style: none; }
+
+.navigation-item {
+  text-transform: uppercase;
+  font-weight: 500;
+  display: inline-block; }
+
+.navigation__logo-box {
+  float: left;
+  height: auto;
+  width: 15rem; }
+
+.navigation__logo {
+  width: 100%; }
+
+.main-navigation {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 2rem 3rem; }
+
+.header {
+  padding: 5rem 7rem;
+  margin-top: 7rem; }

@@ -1,0 +1,10 @@
+.row {
+  max-width: $max-width;
+  margin: 0 auto;
+  @include clearfix;
+}
+
+.col-1-of-2 {
+  width: calc((100% - #{$gutter-horozontal}) / 2);
+  float: left;
+}
