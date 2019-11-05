@@ -8,6 +8,11 @@
   transition: transform 0.3s;
   border-radius: 0.7rem;
 
+  @include respond(tab-port) {
+    padding: 1.9rem 2.7rem;
+    font-size: 1.3rem;
+  }
+
   &-nav:hover,
   &-nav:active {
     box-shadow: $box-shadow;

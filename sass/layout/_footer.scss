@@ -1,0 +1,82 @@
+.footer {
+  color: #fff;
+
+  &__heading {
+    font-size: 2.6rem;
+  }
+
+  &__box {
+    padding: 8rem 17rem;
+    margin: 0 auto;
+    background-color: $color-primary-blue;
+  }
+
+  &__heading {
+    font-size: 3.2rem;
+    font-weight: 700;
+  }
+  &__paragraph {
+    font-size: 1.9rem;
+    font-weight: 700;
+  }
+  &__button {
+    outline: none;
+    border: none;
+    padding: 1.3rem 3rem;
+    font-weight: 700;
+    font-size: 1.6rem;
+    border-radius: 0.7rem;
+    background-color: $color-primary-red;
+    text-transform: capitalize;
+    color: #fff;
+    cursor: pointer;
+    box-shadow: $box-shadow-2;
+    &:hover {
+      background-color: #fff;
+      color: $color-primary-red;
+    }
+  }
+
+  &__input {
+    outline: none;
+    height: 4rem;
+    padding: 2rem 1rem;
+    margin-right: 3rem;
+    border-radius: 0.7rem;
+    font-weight: 200;
+    color: #000;
+    font-size: 2.1rem;
+    width: 30%;
+    display: inline-block;
+    transition: all 0.3s;
+    font-family: inherit;
+    text-transform: lowercase;
+
+    &:invalid {
+      border: 0.5rem solid $color-primary-red;
+    }
+
+    &:focus {
+      width: 35%;
+    }
+  }
+
+  &__navigation {
+    background-color: $color-secondary-red;
+    padding: 4rem 6rem;
+
+    &--left {
+      float: left;
+    }
+    &--right {
+      float: right;
+
+      & > ul > li {
+        display: inline-block;
+        list-style: none;
+        font-size: 3rem;
+        padding: 3rem 2rem;
+      }
+    }
+  }
+}

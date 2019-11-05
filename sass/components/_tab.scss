@@ -5,7 +5,6 @@
 
   &-group {
     margin: 0 auto;
-    width: 61%;
     text-align: center;
   }
 
@@ -18,18 +17,17 @@
   }
   &-content {
     position: relative;
-    height: 46rem;
+    height: 33rem;
+    margin-top: 5rem;
   }
-}
 
-.content-panel {
-  position: absolute;
-  top: 0%;
-  left: 0%;
-}
+  &__content-panel {
+    position: absolute;
+    top: 0%;
+    left: 0%;
 
-#simple-bookmarking:target,
-#speedy-searching:target,
-#speedy-searching:target {
-  z-index: 1;
+    & .panel__image {
+      width: 100%;
+    }
+  }
 }

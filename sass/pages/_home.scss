@@ -4,11 +4,20 @@
   left: 0;
   width: 100%;
   padding: 2rem 3rem;
+  box-shadow: $box-shadow;
+
+  &:hover {
+    box-shadow: $box-shadow-2;
+  }
 }
 
 .header {
   padding: 5rem 7rem;
   margin-top: 7rem;
+}
+
+.section-feature {
+  padding: 5rem 7rem;
 }
 
 .section-download {

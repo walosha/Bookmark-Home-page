@@ -2,6 +2,11 @@
   &__list {
     float: right;
     list-style: none;
+    font-size: 1.3rem;
+
+    @include respond(phone) {
+      display: none;
+    }
   }
 
   &-item {
@@ -19,4 +24,39 @@
   &__logo {
     width: 100%;
   }
+}
+
+.hamburger-menu {
+  &__icon {
+    position: fixed;
+    top: 2rem;
+    right: 6rem;
+    z-index: 100;
+  }
+
+  & path {
+    fill: $color-secondary-blue;
+    cursor: pointer;
+    display: none;
+
+    @include respond(phone) {
+      display: block;
+    }
+  }
+}
+
+.menu__backdrop {
+  position: fixed;
+  z-index: 90;
+  background-image: linear-gradient(to left bottom, #5368dfb3, #6a708aed);
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  opacity: 0;
+  visibility: hidden;
+}
+.remove-nav {
+  opacity: 1;
+  visibility: visible;
 }
