@@ -24,3 +24,23 @@ tabPanels.forEach(panel =>
     }
   })
 );
+
+// TOGGLE ACCORDIAN
+
+// const accordianConts = [...document.querySelectorAll(".accordian__panel--content")];
+const accordianConts = [
+  ...document.querySelectorAll(".accordian__panel--icon")
+];
+
+accordianConts.forEach(accordian =>
+  accordian.addEventListener("click", function() {
+    if (this.dataset.faq) {
+      const contents = document.querySelectorAll(".accordian__panel--content");
+      contents.forEach(content => {
+        if (this.dataset.faq === content.id) {
+          content.classList.toggle("accordian__display");
+        }
+      });
+    }
+  })
+);

@@ -27,14 +27,16 @@ body {
   box-sizing: border-box;
   font-weight: 500;
   font-size: 1.2rem;
-  color: #6a708a; }
+  color: #6a708a;
+  line-height: 2.3rem; }
 
 .heading-primary {
   font-size: 3.6rem;
   font-weight: 700;
   word-spacing: 1rem;
   color: #000;
-  padding: 2.9rem; }
+  padding: 2.9rem;
+  line-height: 4.3rem; }
 
 .paragraph-primary {
   font-size: 1.6rem;
@@ -75,7 +77,7 @@ body {
   margin-bottom: 6rem; }
 
 .u-mr-small {
-  margin-right: 2rem; }
+  margin-right: 1rem; }
 
 .u-center-text {
   text-align: center; }
@@ -92,7 +94,7 @@ body {
   font-weight: 700;
   transition: transform 0.3s;
   border-radius: 0.7rem; }
-  @media (max-width: 56.25em) {
+  @media (max-width: 1102px) {
     .btn {
       padding: 1.9rem 2.7rem;
       font-size: 1.3rem; } }
@@ -176,12 +178,37 @@ body {
     border-top: 0.2rem dotted #6a708a;
     padding: 3rem 0rem; }
 
-.feature {
-  width: 30%;
-  margin: 0 auto; }
+.accordian {
+  padding: 3rem 7rem;
+  width: 87%;
+  margin: 0 auto;
+  text-align: start; }
+  .accordian__display {
+    height: 100% !important;
+    visibility: visible !important;
+    opacity: 1 !important; }
+  .accordian__panel--content {
+    height: 0;
+    visibility: hidden;
+    opacity: 0;
+    transition: all 0.7s; }
+  .accordian__panel h3 {
+    display: inline-block;
+    width: 90%;
+    color: #6a708a; }
+  .accordian__panel p {
+    line-height: 3.3rem; }
+  .accordian__panel--icon {
+    display: inline-block; }
+  .accordian__panel > li {
+    border-top: 0.1rem solid #6a708a;
+    padding: 2rem 0rem;
+    list-style: none; }
+    .accordian__panel > li:last-child {
+      border-bottom: 0.1rem solid #6a708a; }
 
 .header__text-box {
-  padding: 6rem 3rem; }
+  padding: 4rem 1rem; }
 
 .header__image-box {
   width: 100%;
@@ -333,13 +360,12 @@ body {
 
 .section-feature {
   padding: 5rem 7rem; }
+  .section-feature > .feature {
+    width: 43%;
+    margin: 0 auto; }
 
 .section-download {
   padding: 5rem 7rem; }
 
 .section-faq {
-  padding: 5rem 7rem; }
-
-.faq {
-  padding: 3rem 5rem;
-  text-align: center; }
+  padding: 8rem 25rem; }

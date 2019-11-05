@@ -1,0 +1,45 @@
+.accordian {
+  padding: 3rem 7rem;
+  width: 87%;
+  margin: 0 auto;
+  text-align: start;
+
+  &__display {
+    height: 100% !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+  }
+
+  &__panel {
+    &--content {
+      height: 0;
+      visibility: hidden;
+      opacity: 0;
+      transition: all 0.7s;
+    }
+
+    & h3 {
+      display: inline-block;
+      width: 90%;
+      color: $color-secondary-blue;
+    }
+
+    & p {
+      line-height: 3.3rem;
+    }
+
+    &--icon {
+      display: inline-block;
+    }
+
+    & > li {
+      border-top: 0.1rem solid $color-secondary-blue;
+      padding: 2rem 0rem;
+      list-style: none;
+
+      &:last-child {
+        border-bottom: 0.1rem solid $color-secondary-blue;
+      }
+    }
+  }
+}

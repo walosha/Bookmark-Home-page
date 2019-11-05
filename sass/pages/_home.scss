@@ -18,6 +18,11 @@
 
 .section-feature {
   padding: 5rem 7rem;
+
+  & > .feature {
+    width: 43%;
+    margin: 0 auto;
+  }
 }
 
 .section-download {
@@ -25,10 +30,5 @@
 }
 
 .section-faq {
-  padding: 5rem 7rem;
-}
-
-.faq {
-  padding: 3rem 5rem;
-  text-align: center;
+  padding: 8rem 25rem;
 }
