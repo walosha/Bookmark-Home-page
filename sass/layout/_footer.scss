@@ -80,3 +80,13 @@
     }
   }
 }
+
+.attribution {
+  display: inline-block;
+  color: #fff;
+
+  &-link {
+    color: inherit;
+    text-decoration: none;
+  }
+}

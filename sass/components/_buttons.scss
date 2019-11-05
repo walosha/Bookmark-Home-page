@@ -15,6 +15,15 @@
     }
   }
 
+  &-ghost {
+    padding: 5rem 16rem;
+
+    &:hover {
+      border: 0.3rem solid #fff;
+      border-radius: 0.4rem;
+    }
+  }
+
   &-nav:hover,
   &-nav:active {
     box-shadow: $box-shadow;

@@ -1,9 +1,16 @@
 // TOGGLE HAMBURGER MENU TO OPEN AND CLOSE MOBILE NAVIGATION MENU
-document
-  .querySelector(".hamburger-menu__icon")
-  .addEventListener("click", function() {
-    document.querySelector(".menu__backdrop").classList.toggle("remove-nav");
+const elements = document.querySelectorAll(
+  ".hamburger-menu__icon, .close-icon"
+);
+elements.forEach(ele => {
+  ele.addEventListener("click", function() {
+    document.querySelector(".menu__backdrop").classList.toggle("remove-items");
+    document.querySelector(".mobile-nav").classList.toggle("remove-nav");
+    document
+      .querySelector(".mobile-nav__list")
+      .classList.toggle("remove-navlist");
   });
+});
 
 // TOGGLE TAB MENU
 
