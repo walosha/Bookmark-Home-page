@@ -36,7 +36,9 @@
         <li class="navigation-item"><a class="btn btn-nav">Features</a></li>
         <li class="navigation-item"><a class="btn btn-nav">Pricing</a></li>
         <li class="navigation-item"><a class="btn btn-nav">Contact</a></li>
-        <li class="navigation-item"><a class="btn btn-nav">Login</a></li>
+        <li class="navigation-item">
+          <a class="btn btn-blue btn-nav">Login</a>
+        </li>
       </ul>
     </nav>
     <header class="header">
@@ -80,13 +82,15 @@
         </div>
         <div class="tab-area">
           <ul class="tab-group u-mb-medium">
-            <li href="#simple-bookmarking" class="tab__panel">
+            <li data-tab="simple-bookmarking" class="tab__panel">
               <a>Simple Bookmarking</a>
             </li>
-            <li href="#speedy-searching" class="tab__panel">
+            <li data-tab="speedy-searching" class="tab__panel">
               <a> Speedy Searching</a>
             </li>
-            <li href="easy-Sharing" class="tab__panel"><a>Easy Sharing</a></li>
+            <li data-tab="easy-Sharing" class="tab__panel">
+              <a>Easy Sharing</a>
+            </li>
           </ul>
           <div class="tab-content">
             <div class="row tab__content-panel" id="simple-bookmarking">
@@ -104,6 +108,7 @@
                   drag-and-drop interface gives you complete control over how
                   you manage your favourite sites.
                 </p>
+                <a href="#" class="btn btn-blue">read more</a>
               </div>
             </div>
             <div class="row tab__content-panel" id="speedy-searching">
@@ -121,9 +126,13 @@
                   no time at all. No need to trawl through all of your
                   bookmarks.
                 </p>
+                <a href="#" class="btn btn-blue">read more</a>
               </div>
             </div>
-            <div class=" row tab__content-panel" id="easy-Sharing">
+            <div
+              class=" row tab__content-panel tab__content-panel-1"
+              id="easy-Sharing"
+            >
               <div class="col-1-of-2">
                 <img
                   class="panel__image"
@@ -140,6 +149,7 @@
                   Create a shareable link that you can send at the click of a
                   button.
                 </p>
+                <a href="#" class="btn btn-blue">read more</a>
               </div>
             </div>
           </div>
