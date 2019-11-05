@@ -27,8 +27,17 @@
 
 .section-download {
   padding: 5rem 7rem;
+
+  @include respond(tab-port) {
+    padding: 8rem 7rem;
+    margin-top: 20rem;
+  }
 }
 
 .section-faq {
   padding: 8rem 25rem;
+
+  @include respond(tab-port) {
+    padding: 5rem 9rem;
+  }
 }

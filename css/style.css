@@ -143,6 +143,12 @@ body {
   border-bottom: 0.1rem solid #6a708a;
   border-radius: 0.3rem;
   box-shadow: 0.2rem 1.3rem 2.9rem rgba(106, 112, 138, 0.24); }
+  @media (max-width: 56.25em) {
+    .tab__panel {
+      margin-top: 3rem; } }
+  @media (max-width: 56.25em) {
+    .tab__panel {
+      margin-top: 0; } }
   .tab__panel:not(:last-child) {
     margin-right: 1rem; }
   .tab__panel:hover {
@@ -241,8 +247,18 @@ body {
       margin-right: 6rem; }
   .row > .col-1-of-2 {
     width: calc((100% - 6rem) / 2); }
+    @media (max-width: 56.25em) {
+      .row > .col-1-of-2 {
+        width: 90%;
+        margin-left: 3rem;
+        margin-bottom: 4rem; } }
   .row .col-1-of-3 {
     width: calc((100% - 2 * 6rem) / 3); }
+    @media (max-width: 56.25em) {
+      .row .col-1-of-3 {
+        width: 90%;
+        margin-left: 3rem;
+        margin-bottom: 4rem; } }
 
 .footer {
   color: #fff; }
@@ -445,6 +461,13 @@ body {
 
 .section-download {
   padding: 5rem 7rem; }
+  @media (max-width: 56.25em) {
+    .section-download {
+      padding: 8rem 7rem;
+      margin-top: 20rem; } }
 
 .section-faq {
   padding: 8rem 25rem; }
+  @media (max-width: 56.25em) {
+    .section-faq {
+      padding: 5rem 9rem; } }

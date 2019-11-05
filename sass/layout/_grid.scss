@@ -12,9 +12,21 @@
 
   & > .col-1-of-2 {
     width: calc((100% - #{$gutter-horozontal}) / 2);
+
+    @include respond(tab-port) {
+      width: 90%;
+      margin-left: 3rem;
+      margin-bottom: 4rem;
+    }
   }
 
   & .col-1-of-3 {
     width: calc((100% - 2 * #{$gutter-horozontal}) / 3);
+
+    @include respond(tab-port) {
+      width: 90%;
+      margin-left: 3rem;
+      margin-bottom: 4rem;
+    }
   }
 }
