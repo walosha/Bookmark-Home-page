@@ -7,9 +7,9 @@
     position: relative;
     top: 5%;
   }
-  &-1 {
-  }
-  &-1 {
+
+  @include respond(phone) {
+    padding: 3rem 2rem;
   }
 }
 

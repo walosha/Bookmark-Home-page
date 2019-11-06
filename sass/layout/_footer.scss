@@ -56,6 +56,15 @@
     font-family: inherit;
     text-transform: lowercase;
 
+    @media (max-width: 330px) {
+      margin-right: 1rem;
+
+      font-weight: 200;
+
+      font-size: 0.9rem;
+      width: 40%;
+    }
+
     &:invalid {
       border: 0.5rem solid $color-primary-red;
     }
