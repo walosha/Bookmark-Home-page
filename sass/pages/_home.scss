@@ -11,17 +11,15 @@
   }
 }
 
-.header {
-  padding: 5rem 7rem;
-  margin-top: 7rem;
-}
-
 .section-feature {
   padding: 5rem 7rem;
 
   & > .feature {
     width: 43%;
     margin: 0 auto;
+    @media (max-width: 600px) {
+      width: 85%;
+    }
   }
 }
 
@@ -39,5 +37,8 @@
 
   @include respond(tab-port) {
     padding: 5rem 9rem;
+  }
+  @include respond(phone) {
+    padding: 5rem 7rem;
   }
 }

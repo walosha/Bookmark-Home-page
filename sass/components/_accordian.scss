@@ -4,6 +4,10 @@
   margin: 0 auto;
   text-align: start;
 
+  @include respond(phone) {
+    padding: 3rem 4rem;
+  }
+
   &__display {
     height: 100% !important;
     visibility: visible !important;

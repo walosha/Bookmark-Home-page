@@ -14,9 +14,18 @@
       font-size: 1.3rem;
     }
   }
+  @media (max-width: 300px) {
+    & {
+      padding: 1.3rem 1.3rem;
+      font-size: 0.9rem;
+    }
+  }
 
   &-ghost {
-    padding: 5rem 16rem;
+    padding: 5rem 4rem;
+    &:not(:last-child) {
+      margin-bottom: 2rem;
+    }
 
     &:hover {
       border: 0.3rem solid #fff;
